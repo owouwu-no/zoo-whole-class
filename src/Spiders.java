@@ -31,4 +31,16 @@ public class Spiders extends CreepyCrawlies {
     public String sleep() {
         return super.sleep();
     }
+
+    public String eat() {
+        return "Flies";
+    }
+
+    public String move() {
+        return "https://www.youtube.com/watch?v=fZQXmfAfJoU";
+    }
+
+    public String doSomething() {
+        return "browse the web";
+    }
 }
