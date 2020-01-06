@@ -21,4 +21,16 @@ public class Bees extends CreepyCrawlies {
     public Bees(int age, String color, double weight, boolean endangered, boolean sleeping) {
         super(age, "Yellow", weight, endangered, sleeping, true, true);
     }
+
+    public String doSomething() {
+        return "get busy";
+    }
+
+    public String move() {
+        return "fly ";
+    }
+
+    public String eat() {
+        return "cronchin' on some pollen";
+    }
 }
