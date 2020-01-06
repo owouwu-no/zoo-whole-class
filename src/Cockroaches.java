@@ -24,4 +24,15 @@ public class Cockroaches extends CreepyCrawlies {
     public void setScary(boolean scary) {
         isScary = scary;
     }
+    public String eat() {
+        return "You, your family, your friends, your house, and anything you love";
+    }
+
+    public String move() {
+        return "crawls or flies";
+    }
+
+    public String doSomething() {
+        return "Escape the bug spray";
+    }
 }
