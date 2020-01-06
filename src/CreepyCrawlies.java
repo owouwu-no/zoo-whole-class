@@ -9,6 +9,21 @@ public class CreepyCrawlies extends ZooResident {
     }
 
     @Override
+    public String eat() {
+        return null;
+    }
+
+    @Override
+    public String move() {
+        return null;
+    }
+
+    @Override
+    public String doSomething() {
+        return null;
+    }
+
+    @Override
     public String sleep() {
         return null;
     }
@@ -30,4 +45,3 @@ public class CreepyCrawlies extends ZooResident {
     }
 
 }
-
